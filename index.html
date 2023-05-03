@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="style3.css">
+  <link rel="stylesheet" href="style4.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="shortcut icon" href="assets/refs/varinha-logo.png">
+  <title>Meu Portifólio</title>
+</head>
+
+<body>
+  <header>
+
+
+    <div class="menu">
+      <div class="idioma-selecionado">
+        <select class="idioma">
+          <option onclick="indexPt()" value="pt">Português</option>
+          <option onclick="indexEn()" value="en">Inglês</option>
+          <option onclick="indexEs()" value="es">Espanhol</option>
+        </select>
+        <img src="pt.png" class="bandeira">
+      </div>
+      <ul class="menu-texto">
+        <li><a onclick="scrollAboutMe()" id="sobre-mim-link" href="">Sobre mim</a> </li>
+        <li><a onclick="scrollForHabilities()" id="hab-links" href="">Habilidades</a> </li>
+        <li><a onclick="scrollForProjects()" id="projetos-link" href="">Projetos</a> </li>
+      </ul>
+
+
+      <img src="assets/svgs-icons/menu.svg" class="icon">
+      <ul class="options">
+        <button><a onclick="" href="#">Home</a></button>
+        <button><a onclick="" href="">Sobre mim </a></button>
+        <button><a onclick="" href="#">Habilidades </a></button>
+        <button><a onclick="" href="#">Projetos </a></button>
+
+      </ul>
+    </div>
+  </header>
+  <BR></BR><BR>
+  <main>
+    <h1> Sou o <span>Bruxo</span>.</h1>
+    <BR></BR><BR>
+    <h1>Web developer </h1>
+    <br>
+    <span>Este é meu Portfólio e Currículo. Aqui você pode ver cada um dos meus projetos e um pouco mais sobre mim. <br>
+      Curta!</span>
+    <br>
+    <BR></BR>
+    <button onclick="scrollForProjects()" data-aos="fade-down" class="butao">Meus projetos</button> <br> <br><br>
+    <button onclick="buttonCV()" data-aos="fade-up" class="butao"> <img src="assets/svgs-icons/download.svg" alt="">
+      &nbsp; Baixe meu
+      CV</button>
+  </main>
+
+  <section>
+    <div id="sobre-mim2" class="sobre-mim">
+      <div class="foto-sobre-mim"></div>
+      <div class="texto-sobre-mim">
+        <p>Sobre mim:</p> <br><br><br>
+        <p style="font-weight: bold;">Meu nome é Guilherme Duffes e sou conhecido como o "bruxo da programação". Estou
+          cursando Engenharia da
+          Computação e tenho uma paixão por tecnologia e desenvolvimento de software. Embora ainda não tenha experiência
+          profissional, possuo habilidades autodidatas e conhecimentos em JavaScript, HTML, CSS, Git e Github. Tenho
+          facilidade em aprender novos sistemas e ferramentas e sempre estou procurando novas oportunidades para crescer
+          e aprender. Meu objetivo é encontrar uma empresa que valorize meu potencial e me permita contribuir para o seu
+          sucesso. Fora do trabalho, sou apaixonado por estudar, ler, cozinhar e praticar esportes. Atualmente, tenho
+          alguns projetos em andamento e estou animado para compartilhá-los em breve. Se você está procurando por alguém
+          apaixonado por tecnologia, capacitado e sempre pronto para aprender, eu sou a pessoa certa.</p>
+      </div>
+    </div>
+  </section>
+  <br><br><br><br><br>
+  <h2 style="font-family: origintech; color: white; text-align: center; font-size: 2.5rem;">Minhas habilidades</h2>
+
+  <section>
+    <div class="pai-habilidades">
+      <div data-aos="zoom-in-down" class="box-habilidades">
+        <img src="assets/svgs-icons/smartphone.svg" alt="">
+        <span style="font-family: tourner; letter-spacing: 3px;">Design Responsivo</span>
+        <span style="font-family: dmsans; text-align: justify;">Com a minha habilidade em design responsivo, posso criar
+          designs atraentes e
+          funcionais para dispositivos móveis, desktops e tablets. Isso garante que seu site seja acessível e fácil de
+          usar em qualquer plataforma.</span>
+      </div>
+      <div data-aos="zoom-in" class="box-habilidades">
+        <img src="assets/svgs-icons/chrome.svg" alt="">
+        <span style="font-family: tourner; letter-spacing: 3px;">SEO</span>
+        <span style="font-family: dmsans; text-align: justify; ">Com conhecimento em SEO, posso otimizar seu site para
+          os motores de busca,
+          garantindo uma boa classificação nos resultados de pesquisa e aumentando a visibilidade do seu negócio na
+          web.</span>
+      </div>
+      <div data-aos="zoom-in" class="box-habilidades">
+        <img src="assets/svgs-icons/user.svg" alt="">
+        <span style="font-family: tourner; letter-spacing: 3px;">Trabalho em equipe</span>
+        <span style="font-family: dmsans; text-align: justify;">Acredito que o trabalho em equipe é fundamental para o
+          sucesso de qualquer
+          projeto. Com minha habilidade de trabalhar em equipe, posso colaborar com outros profissionais para atingir
+          objetivos comuns e garantir a entrega de resultados excepcionais.</span>
+      </div>
+      <div data-aos="zoom-in" class="box-habilidades">
+        <img src="assets/svgs-icons/code.svg" alt="">
+        <span style="font-family: tourner; letter-spacing: 3px;">Html & Css</span>
+        <span style="font-family: dmsans; text-align: justify;">Como programador, possuo habilidades avançadas em HTML &
+          CSS, o que me permite criar páginas web incrivelmente atraentes e funcionais. Eu sei como combinar a estrutura
+          da página com design e usabilidade, resultando em experiências incríveis para o usuário final. Se você precisa
+          de alguém para criar um site que realmente impressione, eu sou a escolha certa.</span>
+      </div>
+      <div data-aos="zoom-in" class="box-habilidades">
+        <img src="assets/svgs-icons/target.svg" alt="">
+        <span style="font-family: tourner; letter-spacing: 3px;">JavaScript</span>
+        <span style="font-family: dmsans; text-align: justify;">O meu conhecimento avançado em JavaScript me torna capaz
+          de transformar ideias em aplicações incrivelmente dinâmicas e interativas. Sei como adicionar interatividade
+          aos sites, criar animações incríveis e desenvolver aplicações completas. Se você precisa de alguém para criar
+          uma aplicação envolvente e interativa, eu sou a escolha certa.</span>
+      </div>
+      <div data-aos="zoom-in" class="box-habilidades">
+        <img src="assets/svgs-icons/github.svg" alt="">
+        <span style="font-family: tourner; letter-spacing: 3px;">Git & Github</span>
+        <span style="font-family: dmsans; text-align: justify;">Como programador, o conhecimento avançado de Git &
+          Github é uma verdadeira vantagem. Eu sei como garantir a gestão de código eficiente e colaborativa, o que é
+          crucial para o sucesso de qualquer projeto de desenvolvimento. Além disso, ele é capaz de gerenciar o
+          versionamento de código de maneira eficiente e colaborar com outros desenvolvedores sem problemas.</span>
+      </div>
+      <div data-aos="zoom-in-up" class="box-habilidades">
+        <img src="assets/svgs-icons/hard-drive.svg" alt="">
+        <span style="font-family: tourner; letter-spacing: 3px;">Hardware</span>
+        <span style="font-family: dmsans; text-align: justify;">Como Amante da tecnologia, o meu profundo conhecimento
+          em hardware permite soluções customizadas e otimizadas para suas necessidades. Eu sei trabalhar com hardware
+          para criar soluções personalizadas e eficientes que atendem às suas especificações exatas.</span>
+      </div>
+
+    </div>
+
+    <br><br><br><br><br>
+
+    <h2 id="projetos" style="font-family: origintech; color: white; text-align: center; font-size: 2.5rem;">Melhores Projetos
+    </h2>
+
+    <div id="cards">
+      <div class="card">
+        <div class="card-content">
+          <div class="card-image">
+            <img  src="assets/svgs-icons/database.svg" alt="">
+          </div>
+          <div class="card-info-wrapper">
+            <div class="card-info">
+              <img  src="assets/svgs-icons/database2.svg" alt="">
+              <div class="card-info-title">
+                <h3>CRUD</h3>
+                <h4>CRUD feito com Html, Css, JavaScript Vanilla</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <div class="card-image">
+            <img src="assets/svgs-icons/image.svg" alt="">
+          </div>
+          <div class="card-info-wrapper">
+            <div class="card-info">
+              <img src="assets/svgs-icons/image2.svg" alt="">
+              <div class="card-info-title">
+                <h3>Gerador De Imagens</h3>
+                <h4>Gerador de imagens de acordo com o sexo feito com Html, Css, JavaScript Vanilla</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <div class="card-image">
+            <img src="assets/svgs-icons/lock.svg" alt="">
+          </div>
+          <div class="card-info-wrapper">
+            <div class="card-info">
+              <img src="assets/svgs-icons/lock2.svg" alt="">
+              <div class="card-info-title">
+                <h3>Gerador De Senhas</h3>
+                <h4>Gerador de senha com histórico, cookies e data feito com Html, Css, JavaScript Vanilla</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <div class="card-image">
+            <img src="assets/svgs-icons/Spinner-1s-177px.svg" alt="">
+          </div>
+          <div class="card-info-wrapper">
+            <div class="card-info">
+              <img src="assets/svgs-icons/Spinner-1s-177px2.svg" alt="">
+              <div class="card-info-title">
+                <h3>Em Breve . . .</h3>
+                <h4>-</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <div class="card-image">
+            <img src="assets/svgs-icons/Spinner-1s-177px.svg" alt="">
+          </div>
+          <div class="card-info-wrapper">
+            <div class="card-info">
+              <img src="assets/svgs-icons/Spinner-1s-177px2.svg" alt="">
+              <div class="card-info-title">
+                <h3>Em Breve . . .</h3>
+                <h4>-</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <div class="card-image">
+            <img src="assets/svgs-icons/Spinner-1s-177px.svg" alt="">
+          </div>
+          <div class="card-info-wrapper">
+            <div class="card-info">
+              <img src="assets/svgs-icons/Spinner-1s-177px2.svg" alt="">
+              <div class="card-info-title">
+                <h3>Em Breve . . .</h3>
+                <h4>-</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div class="linha-footer"></div>
+    <br><br><br>
+
+    <footer>
+      <h3 onclick="scrollForHome()" id="home1" style="font-family: origintech; font-size: 2.5rem;">Bruxo</h3>
+      <ul>
+        <li onclick="scrollForHome()" id="home2"
+          style="color: #47D16E; font-size: 1.7rem; font-family: nasa; letter-spacing: 4px; font-weight: bolder;">Home
+        </li>
+        <li onclick="scrollAboutMe()" style="font-family: dmsans; font-weight: 600;">Sobre mim</li>
+        <li onclick="scrollForProjects()" id="projetos" style="font-family: dmsans; font-weight: 600;">Projetos</li>
+        <li id="contato"
+          style=" cursor: auto; color: #47D16E; font-size: 1.7rem; font-family: nasa; letter-spacing: 4px; font-weight: bolder;">
+          Contato</li>
+        <li onclick="linkForInsta()" id="insta" style="font-family: dmsans; font-weight: 600;">Instagram</li>
+        <li onclick="linkForWhatsapp()" id="whatsapp" style="font-family: dmsans; font-weight: 600;">Whatsapp</li>
+        <li onclick="linkforLinkedin()" id="linkedin" style="font-family: dmsans; font-weight: 600;">Linkedin</li>
+      </ul>
+    </footer>
+
+    <br><br><br>
+    <div class="linha-footer"></div>
+    <br>
+
+    <p style="color: white; font-size: 1rem;">© 2023 Bruxo</p>
+
+    <br><br>
+
+
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script>
+
+    </script>
+
+</body>
+
+</html>
