@@ -63,21 +63,33 @@ function scrollForProjects() {
 	});
 };
 
-function scrollForHabilities(){
+function scrollForHabilities() {
 	const element = document.getElementById("pai-habilidades");
 	element.scrollIntoView({
-		behavior:"smooth"
+		behavior: "smooth"
 	});
 };
 
-function linkForInsta(){
+function linkForInsta() {
 	window.open("https://www.instagram.com/bx_crip");
 };
 
-function linkForWhatsapp(){
+function linkForWhatsapp() {
 	window.open("https://wa.me/+5521971235386");
 };
 
-function linkForLinkedin(){
+function linkForLinkedin() {
 	window.open("https://www.linkedin.com/in/guilherme-duffes-b83146240/");
 };
+
+document.getElementById('CRUD').addEventListener('click', function () {
+	window.open('https://crud-cookies-fawn.vercel.app/', "_blank")
+})
+
+document.getElementById('imgGenerator').addEventListener('click', function () {
+	window.open('https://gerador-alfacon.vercel.app/', "_blank")
+})
+
+document.getElementById('passGenerator').addEventListener('click', function () {
+	window.open('https://password-generator-tau-orcin.vercel.app/', "_blank")
+})

@@ -33,11 +33,6 @@
         font-family: tourner;
         src: url(/assets/fonts/Tourner.ttf);
     }
-    
-    
-
-
-    
 
     .menu-texto{
         list-style: none;
@@ -196,7 +191,7 @@
         letter-spacing: 3px;
         color: #BF2C0B;
         font-weight: 900;
-        font-family: tourner;
+        font-family: origintech;
         border: 3px solid black;
         background: none;
         padding: 10px;
