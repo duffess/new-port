@@ -71,7 +71,7 @@ function scrollForHabilities() {
 };
 
 function linkForInsta() {
-	window.open("https://www.instagram.com/bx_crip");
+	window.open("https://www.instagram.com/bruxola_");
 };
 
 function linkForWhatsapp() {

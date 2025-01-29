@@ -172,7 +172,7 @@
         text-decoration: none;
         text-transform: uppercase;
         letter-spacing: 3px;
-        color: #BF2C0B;
+        color: #ffffff;
         font-weight: 900;
         font-family: origintech;
         border: 3px solid black;
@@ -233,12 +233,15 @@
     }
     
     .sobre-mim {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         margin-top: 25rem;
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 90vw;
-        height: 75rem;
+        width: 60vw;
+        height: 35rem;
         border-radius: 8px;
         border: 1px solid white;
         background-color: #1c1c1d;
@@ -246,24 +249,10 @@
     
     }
     
-    .foto-sobre-mim {
-        display: flex;
-        justify-content: center;
-        width: 85vw;
-        height: 50vh;
-        border-radius: 8px;
-        /* border: 1px solid orange; */
-        background-image: url(assets/refs/bruxo_Minimalistic_logo_with_a_green_witch_wand_and_elegant_typ_49681ba6-60ed-4908-8523-c1917a85f5e9.png);
-        background-size: contain;
-        background-position: center center;
-        background-repeat: no-repeat;
-        margin-top: 3rem;
-    }
-    
     .texto-sobre-mim {
-        width: 85vw;
+        max-width: 45vw;
+        font-size: 24px;
         /* border: 1px solid blue; */
-        margin-top: 0.5rem;
     }
     
     .texto-sobre-mim P:first-child {
